@@ -1,11 +1,11 @@
 import React from "react";
-import mock01 from '../assets/images/mock01.png';
-import mock02 from '../assets/images/mock02.png';
-import mock03 from '../assets/images/mock03.png';
-import mock04 from '../assets/images/mock04.png';
-import mock05 from '../assets/images/mock05.png';
-import mock06 from '../assets/images/mock06.png';
-import mock07 from '../assets/images/mock07.png';
+import mock01 from '../assets/images/Img1.png';
+import mock02 from '../assets/images/Img2.png';
+import mock03 from '../assets/images/Img3.png';
+import mock04 from '../assets/images/Img4.png';
+import mock05 from '../assets/images/Img5.png';
+import mock06 from '../assets/images/Img6.png';
+import mock07 from '../assets/images/Img7.png';
 import mock08 from '../assets/images/mock08.png';
 import mock09 from '../assets/images/mock09.png';
 import mock10 from '../assets/images/mock10.png';
@@ -17,54 +17,53 @@ function Project() {
         <h1>Personal Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Filmate AI</h2></a>
-                <p>Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.</p>
+                <a href="https://github.com/VLimbhar22/TeamOrion" target="_blank" rel="noopener noreferrer">
+                    <img src={mock01} className="zoom" alt="project preview" width="100%" />
+                    <h2>LLM for Knowledge Graph Extraction and Complex Reasoning</h2>
+                    <p>Led Agile project as Scrum Master for 5 sprints; developed AI pipeline to extract biomedical knowledge graphs using LLMs and Neo4j. Built ETL using Python, automated workflows with Airflow, and deployed a Streamlit UI for real-time querying.</p>
+                </a>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
+                <a href="https://public.tableau.com/views/FlightsDashboard_17217786143080/Dashboard1?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank" rel="noopener noreferrer">
+                    <img src={mock02} className="zoom" alt="project preview" width="100%" />
+                    <h2>Flights Cancellation/Delays Survey Dashboard</h2>
+                    <p>Analyzed 5M+ U.S. airline flight records using Tableau. Built interactive dashboards with bar charts, heatmaps, and KPIs to identify delay trends and improve operational efficiency.</p>
+                </a>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
-                <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
+                <a href="https://github.com/VLimbhar22/Shoe-set-classification-and-generation-Zappos50k" target="_blank" rel="noopener noreferrer">
+                    <img src={mock03} className="zoom" alt="project preview" width="100%" />
+                    <h2>Shoe Set Classification and Generation – Zappos50K</h2>
+                    <p>Classified 50K+ shoe images using CNNs in TensorFlow. Achieved 88% accuracy; generated realistic images via GANs; applied transfer learning with ResNet50/VGG16 to reduce training time by 40%.</p>
+                </a>
             </div>
             <div className="project">
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
-                <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
+                <a href="https://github.com/VLimbhar22/Twitter-Sentiment-Analysis-on-Major-U.S.-Airlines" target="_blank" rel="noopener noreferrer">
+                    <img src={mock04} className="zoom" alt="project preview" width="100%" />
+                    <h2>Twitter Sentiment Analysis on U.S. Airlines</h2>
+                    <p>Used Databricks & PySpark to analyze 15K+ tweets. Built ML models (LogReg, RF) to predict sentiment with 89% accuracy. Identified top issues via visualizations to guide service improvements.</p>
+                </a>
             </div>
             <div className="project">
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>WeManage: Real Estate Asset Management</h2></a>
-                <p>This mobile application allows realtors in Japan to securely manage their property information and view future income predictions. This app is built with Ruby on Rails and JavaScript.</p>
+                <a href="https://github.com/VLimbhar22/Web-Scraping-and-Sentiment-Analysis-on-BBC-Sports" target="_blank" rel="noopener noreferrer">
+                    <img src={mock05} className="zoom" alt="project preview" width="100%" />
+                    <h2>Web Scraping and Sentiment Analysis on BBC Sports</h2>
+                    <p>Scraped 5K+ BBC Sports articles using BeautifulSoup. Preprocessed text, classified sentiment (85% accuracy), and visualized trends using Seaborn. Built chatbot to summarize article sentiment.</p>
+                </a>
             </div>
             <div className="project">
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>COVID-19 Case Management</h2></a>
-                <p>Built official charts for COVID/vaccination tracking for an educational institution using JavaScript and the Google Sheets API v4. The dashboard served the university's leadership in their decision-making processes.</p>
+                <a href="https://github.com/VLimbhar22/Credit_Fraud" target="_blank" rel="noopener noreferrer">
+                    <img src={mock06} className="zoom" alt="project preview" width="100%" />
+                    <h2>Credit Card Fraud Detection</h2>
+                    <p>Processed 284K+ transactions in R; applied sampling techniques and built models (XGBoost, RF) to detect fraud with 93% accuracy. Used Excel and R for preprocessing and modeling.</p>
+                </a>
             </div>
             <div className="project">
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><h2>Multiple Regression Property Analysis</h2></a>
-                <p>Analyzed the real estate market in Japan and predicted property prices by implementing statistical methods such as OLS and multi-regression analysis. This project leveraged Python and various libraries such as Pandas, NumPy, Matplotlib, and Scikit-Learn.</p>
-            </div>
-            <div className="project">
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><h2>Programs of Study</h2></a>
-                <p>Designed and developed a custom component for a CMS-based platform (e.g., 'Brightspot') using Java, Handlebars, and LESS. University students can find their majors of interest through this module.</p>
-            </div>
-            <div className="project">
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><h2>Transfer Evaluation Matrix</h2></a>
-                <p>Created an interactive CSV table generator with Java, Handlebars, and LESS. This project helps transfer students to quickly identify eligible credits.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
-                <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p>
+                <a href="https://github.com/VLimbhar22/Gun-Violence-in-United-States--2013-18-" target="_blank" rel="noopener noreferrer">
+                    <img src={mock07} className="zoom" alt="project preview" width="100%" />
+                    <h2>Gun Violence Analysis in the U.S.</h2>
+                    <p>Analyzed 250K+ incidents using Python, Power BI, and OpenRefine. Mapped hotspots, trends, and drivers using interactive dashboards and EDA techniques to support policy recommendations.</p>
+                </a>
             </div>
         </div>
     </div>
